@@ -1,0 +1,7 @@
+SET GLOBAL event_scheduler=1;
+USE PROGETTO_DB;
+CREATE EVENT Mensili
+ON SCHEDULE EVERY '1' MONTH
+STARTS '2022-07-31 23:59:00'
+DO
+	CALL CalcolaStipendi();

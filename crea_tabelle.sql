@@ -13,6 +13,7 @@ create table Autori(
 	Cognome varchar(15),
 	AnnoNascita Year(4),
 	AnnoMorte Year(4),
+	MeseAutore BOOLEAN DEFAULT false,
 	PRIMARY KEY(CodAutore)
 ) ENGINE=INNODB DEFAULT charset=utf8;
 
@@ -40,6 +41,9 @@ create table Clienti(
 	Cognome varchar(15),
 	Indirizzo varchar(40),
 	CodiceFiscale varchar(16),
+	TrePiùUno BOOLEAN DEFAULT false,
+	SeiPiùUno BOOLEAN DEFAULT false,
+	NovePiùUno BOOLEAN DEFAULT false,
 	PRIMARY KEY(CodCliente)
 )ENGINE=INNODB DEFAULT charset=utf8;
 
@@ -70,7 +74,9 @@ create table Vendite(
 	CodLibro int NOT NULL,
 	Data date,
 	CodProm ENUM('A','B','C'),	
-	TrePiùUno BOOLEAN,
+	TrePiùUno BOOLEAN DEFAULT false,
+	SeiPiùUno BOOLEAN DEFAULT false,
+	NovePiùUno BOOLEAN DEFAULT false,
 	PRIMARY KEY(ProgressivoVendita,CodCliente,CodDipendente,CodLibro,Data),
 	FOREIGN KEY(CodCliente)
 	REFERENCES Clienti(CodCliente),
