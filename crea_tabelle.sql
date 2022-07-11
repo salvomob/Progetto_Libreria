@@ -72,12 +72,12 @@ create table Vendite(
 	CodCliente int NOT NULL,
 	CodDipendente int NOT NULL,
 	CodLibro int NOT NULL,
-	Data date,
+	Data date NOT NULL,
 	CodProm ENUM('A','B','C'),	
 	TrePiùUno BOOLEAN DEFAULT false,
 	SeiPiùUno BOOLEAN DEFAULT false,
 	NovePiùUno BOOLEAN DEFAULT false,
-	PRIMARY KEY(ProgressivoVendita,CodCliente,CodDipendente,CodLibro,Data),
+	PRIMARY KEY(ProgressivoVendita),
 	FOREIGN KEY(CodCliente)
 	REFERENCES Clienti(CodCliente),
 	FOREIGN KEY(CodDipendente)
