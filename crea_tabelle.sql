@@ -11,17 +11,17 @@ create table Autori(
 	codAutore int NOT NULL AUTO_INCREMENT,
 	Nome varchar(15),
 	Cognome varchar(15),
-	AnnoNascita Year(4),
-	AnnoMorte Year(4),
+	AnnoNascita int,
+	AnnoMorte int,
 	MeseAutore BOOLEAN DEFAULT false,
 	PRIMARY KEY(CodAutore)
 ) ENGINE=INNODB DEFAULT charset=utf8;
 
 create table Libri(
 	CodLibro int NOT NULL AUTO_INCREMENT,
-	Titolo varchar(15) NOT NULL,
+	Titolo varchar(60) NOT NULL,
 	codAutore int NOT NULL,
-	AnnoPrimaPubblicazione YEAR(4),
+	AnnoPrimaPubblicazione int,
 	PrezzoBase float,
 	Tipologia ENUM('CARTACEO','AUDIOLIBRO','EBOOK','MISTO'),
 	Link varchar(40),

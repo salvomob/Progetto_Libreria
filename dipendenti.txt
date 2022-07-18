@@ -1,0 +1,8 @@
+,Luca,Serio,\N,srolca,1
+,Antonio,Puglisi,\N,pglnto,2
+,Pippo,Angelo,\N,pppngl,2
+,Dora,Miano,\N,mnidra,3
+,Camillo,Benso,\N,bnscml,4
+,Bud,Spencer,\N,bdspncr,2
+,Andrea,Cosentino,\N,ndrcsnt,1
+,Arezzo,Angela,\N,rzzngl,3

@@ -1,0 +1,8 @@
+,Mario,Rossi,\N,rssmrr,0,0,0
+,Lucio,Verdi,\N,vrdlci,0,0,0
+,Giovanna,Bianchi,\N,bncgvn,0,0,0
+,Salvatore,Catania,\N,ctnsvt,0,0,0
+,Francesco,Messina,\N,msnfrc,0,0,0
+,Luisa,Spagna,\N,spgnls,0,0,0
+,Giuseppe,Ragusa,\N,rgsgpp,0,0,0
+,Salvatore,Mobilia,via G.Pascoli 14 Malvagna,mblsvt97p06l042h,0,0,0

@@ -1,0 +1,4 @@
+,Addetto alle vendite,1300
+,Riordina e pulisce i locali,1000
+,Addetto al settore finanziario,1800
+,Addetto al settore IT,2000

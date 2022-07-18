@@ -1,0 +1,15 @@
+,Dante,Alighieri,1265,1321,0
+,Luigi,Pirandello,1867,1936,0
+,J K,Rowling,1965,\N,0
+,Andrea,Camilleri,1925,2019,0
+,Wilbur,Smith,1933,2021,0
+,Valerie,Perrin,1967,\N,0
+,Umberto,Eco,1932,2016,0
+,Dan,Brown,1964,\N,0
+,Michael,Connelly,1956,\N,0
+,Milan,Cundera,1929,\N,0
+,Karl,Marx,1818,1883,0
+,Immanuel,Kant,1724,1804,0
+,Italo,Svevo,1861,1928,0
+,Giovanni,Verga,1840,1922,0
+,Giovanni,Pascoli,1855,1912,0

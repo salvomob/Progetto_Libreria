@@ -2,7 +2,7 @@ SET GLOBAL event_scheduler=1;
 USE PROGETTO_DB;
 CREATE EVENT WorstSellersCreation
 ON SCHEDULE EVERY '1' MONTH
-STARTS '2022-06-30 11:00:00'
+STARTS '2022-06-30 23:59:00'
 DO
 	select 'ciao';
 	DROP TABLE IF EXISTS WorstSellers;
