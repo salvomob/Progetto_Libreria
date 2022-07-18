@@ -29,7 +29,8 @@ create table Libri(
 	CodProm ENUM('A','B','C'),
 	PRIMARY KEY (CodLibro),
 	FOREIGN KEY (CodAutore)
-	REFERENCES Autori(CodAutore),
+	REFERENCES Autori(CodAutore)
+	ON DELETE CASCADE,
 	FOREIGN KEY (CodProm)
 	REFERENCES Promozioni(CodProm)
 	ON DELETE CASCADE

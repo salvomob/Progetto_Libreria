@@ -29,4 +29,6 @@ source /home/salvatore/Scrivania/progetto_database/calcolaStipendi.sql
 source /home/salvatore/Scrivania/progetto_database/mensili.sql
 source /home/salvatore/Scrivania/progetto_database/calcolaPrezzo.sql
 source /home/salvatore/Scrivania/progetto_database/acquisto.sql
-
+/*
+in here all the LOAD DATA LOCAL INFILE -> to be completed
+*/
